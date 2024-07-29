@@ -2,6 +2,7 @@
 #It's a form of NetBeans with vendor specific changes
 #Taken from zeha on GIST https://gist.github.com/zeha/5999375
 #Updated by Cristian Cristea (https://github.com/cristiancristea00)
+#Edited with https://forum.microchip.com/s/topic/a5CV40000001lOHMAY/t397050
 
 *.d
 *.pre
@@ -17,16 +18,17 @@
 *.properties
 *.production
 *.debug
-html/
-nbproject/private/
-nbproject/Package-*.bash
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
 build/
 nbbuild/
+.nb-gradle/
 dist/
-nbdist/
 nbactions.xml
 nb-configuration.xml
+nbdist/
 funclist
-nbproject/Makefile-*
 disassembly/
 .generated_files/
+html/
